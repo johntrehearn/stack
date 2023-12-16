@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: 'Pixelify Sans', Courier, monospace;
+  text-align: center;
+  background-image: url(./src/assets/forest3.JPG);
+  background-size: cover;
+  height: 100vh;
+  top: 50%;
+  cursor: pointer;
+  color: #535bf2;
+}
+
+input {
+  background-color: rgb(165, 174, 178);
+  color: black;
+  width: 300px
+}
+
+.output {
+  font-family: 'Rubik Scribble', Courier, monospace;
+  color: rgb(14, 13, 14);
+  font-size: x-large;
+
+
+}
+
+.title {
+  color: red;
+  font-size: 60px;
+}
+
+.output {
+  background-color: rgb(120, 126, 126);
+  opacity: 90%;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.output_board {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(33, 12, 165);
+}
+
+button {
+  background-color: #646cff;
+}
+
+input {
+  background-color: rgb(33, 111, 46);
+}
